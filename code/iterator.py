@@ -1,5 +1,5 @@
-def chain(*iterables):
-    for it in iterables:
+def chain(*args):
+    for it in args:
         for e in it:
             yield e
 

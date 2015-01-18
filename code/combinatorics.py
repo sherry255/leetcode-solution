@@ -1,3 +1,10 @@
+def product(*args):
+    r = [()]
+    for a in args:
+        r = [x+(y,) for x in r for y in a]
+    return r
+
+
 def comb(l, n):
     if n == 0:
         yield ()

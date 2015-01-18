@@ -3,15 +3,15 @@ LeetCode Solutions
 ==================
 
 
-Linked List
-===========
+Combinatorics
+=============
 
-=== ==================== ======
-  2 `Add Two Numbers`__  DONE__
-=== ==================== ======
+=== ========================================== ======
+ 17 `Letter Combinations of a Phone Number`__  DONE__
+=== ========================================== ======
 
-.. __: https://oj.leetcode.com/problems/add-two-numbers/
-.. __: code/2-add-two-numbers.py
+.. __: https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/
+.. __: code/17-letter-combinations-of-a-phone-number.py
 
 
 Digit
@@ -42,6 +42,22 @@ Digit
 
 
 
+Linked List
+===========
+
+=== ===================================== ======
+  2 `Add Two Numbers`__                   DONE__
+ 19 `Remove Nth Node From End of List`__  TODO__
+=== ===================================== ======
+
+.. __: https://oj.leetcode.com/problems/add-two-numbers/
+.. __: code/2-add-two-numbers.py
+
+.. __: https://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/
+.. __: code/19-remove-nth-node-from-end-of-list.py
+
+
+
 Regular Expression
 ==================
 
@@ -52,6 +68,16 @@ Regular Expression
 .. __: https://oj.leetcode.com/problems/regular-expression-matching/
 .. __: code/10-regular-expression-matching.py
 
+
+Stack
+=====
+
+=== ====================== ======
+ 20 `Valid Parentheses`__  TODO__
+=== ====================== ======
+
+.. __: https://oj.leetcode.com/problems/valid-parentheses/
+.. __: code/20-valid-parentheses.py
 
 
 Sum
