@@ -40,7 +40,9 @@ def parse_module(module_name):
                 continue
 
             if table.lookup(g).is_imported():
-                yield imports[g]
+                imported = imports[g]
+                if imported[0] != "leetcode":
+                    yield imported
             else:
                 yield (module_name, g)
 
