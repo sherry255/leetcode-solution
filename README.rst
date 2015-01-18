@@ -14,6 +14,45 @@ Linked List
 .. __: code/2-add-two-numbers.py
 
 
+Digit
+=====
+
+=== ============================= ======
+  7 `Reverse Integer`__           DONE__
+  8 `String to Integer (atoi)`__  DONE__
+  9 `Palindrome Number`__         DONE__
+ 12 `Integer to Roman`__          DONE__
+ 13 `Roman to Integer`__          DONE__
+=== ============================= ======
+
+.. __: https://oj.leetcode.com/problems/reverse-integer/
+.. __: code/7-reverse-integer.py
+
+.. __: https://oj.leetcode.com/problems/string-to-integer-atoi/
+.. __: code/8-string-to-integer-atoi.py
+
+.. __: https://oj.leetcode.com/problems/palindrome-number/
+.. __: code/9-palindrome-number.py
+
+.. __: https://oj.leetcode.com/problems/integer-to-roman/
+.. __: code/12-integer-to-roman.py
+
+.. __: https://oj.leetcode.com/problems/roman-to-integer/
+.. __: code/13-roman-to-integer.py
+
+
+
+Regular Expression
+==================
+
+=== ================================ ======
+ 10 `Regular Expression Matching`__  TODO__
+=== ================================ ======
+
+.. __: https://oj.leetcode.com/problems/regular-expression-matching/
+.. __: code/10-regular-expression-matching.py
+
+
 
 Sum
 ===
@@ -47,6 +86,8 @@ Uncategorized
   4 `Median of Two Sorted Arrays`__                     DONE__
   5 `Longest Palindromic Substring`__                   TODO__
   6 `ZigZag Conversion`__                               DONE__
+ 11 `Container With Most Water`__                       TODO__
+ 14 `Longest Common Prefix`__                           TODO__
 === =================================================== ======
 
 .. __: https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/
@@ -60,3 +101,9 @@ Uncategorized
 
 .. __: https://oj.leetcode.com/problems/zigzag-conversion/
 .. __: code/6-zigzag-conversion.py
+
+.. __: https://oj.leetcode.com/problems/container-with-most-water/
+.. __: code/11-container-with-most-water.py
+
+.. __: https://oj.leetcode.com/problems/longest-common-prefix/
+.. __: code/14-longest-common-prefix.py
