@@ -8,10 +8,14 @@ Combinatorics
 
 === ========================================== ======
  17 `Letter Combinations of a Phone Number`__  DONE__
+ 22 `Generate Parentheses`__                   DONE__
 === ========================================== ======
 
 .. __: https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/
 .. __: code/17-letter-combinations-of-a-phone-number.py
+
+.. __: https://oj.leetcode.com/problems/generate-parentheses/
+.. __: code/22-generate-parentheses.py
 
 
 Digit
@@ -47,7 +51,8 @@ Linked List
 
 === ===================================== ======
   2 `Add Two Numbers`__                   DONE__
- 19 `Remove Nth Node From End of List`__  TODO__
+ 19 `Remove Nth Node From End of List`__  DONE__
+ 21 `Merge Two Sorted Lists`__            DONE__
 === ===================================== ======
 
 .. __: https://oj.leetcode.com/problems/add-two-numbers/
@@ -55,6 +60,9 @@ Linked List
 
 .. __: https://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/
 .. __: code/19-remove-nth-node-from-end-of-list.py
+
+.. __: https://oj.leetcode.com/problems/merge-two-sorted-lists/
+.. __: code/21-merge-two-sorted-lists.py
 
 
 

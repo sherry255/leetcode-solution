@@ -20,6 +20,10 @@ def get_imports(module):
                 yield (alias.name, (stmt.module,alias.name))
 
 
+def get_child_tables(table):
+    return [table]+[ct for t in table.get_children() for ct in get_child_tables(t)]
+
+
 def parse_module(module_name):
     filename = module_name + ".py"
     with open(filename, 'r') as f:
@@ -34,17 +38,17 @@ def parse_module(module_name):
     imports = dict(get_imports(module))
 
     def parse_dependencies(name):
-        ns = table.lookup(name).get_namespace()
-        for g in table.lookup(name).get_namespace().get_globals():
-            if g in dir(__builtins__):
-                continue
+        for tab in get_child_tables(table.lookup(name).get_namespace()):
+            for g in tab.get_globals():
+                if g in dir(__builtins__):
+                    continue
 
-            if table.lookup(g).is_imported():
-                imported = imports[g]
-                if imported[0] != "leetcode":
-                    yield imported
-            else:
-                yield (module_name, g)
+                if table.lookup(g).is_imported():
+                    imported = imports[g]
+                    if imported[0] != "leetcode":
+                        yield imported
+                else:
+                    yield (module_name, g)
 
     return last_fun, lines, {name:tuple(parse_dependencies(name)) for name in lines}
 

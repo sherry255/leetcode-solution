@@ -1,6 +1,11 @@
 from leetcode import ListNode
 
 
+def new_node(val, next):
+    node = ListNode(val)
+    node.next = next
+    return node
+
 def list_node_to_iter(n):
     while n is not None:
         yield n.val
