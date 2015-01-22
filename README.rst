@@ -53,6 +53,9 @@ Linked List
   2 `Add Two Numbers`__                   DONE__
  19 `Remove Nth Node From End of List`__  DONE__
  21 `Merge Two Sorted Lists`__            DONE__
+ 23 `Merge k Sorted Lists`__              DONE__
+ 24 `Swap Nodes in Pairs`__               TODO__
+ 25 `Reverse Nodes in k-Group`__          TODO__
 === ===================================== ======
 
 .. __: https://oj.leetcode.com/problems/add-two-numbers/
@@ -64,6 +67,14 @@ Linked List
 .. __: https://oj.leetcode.com/problems/merge-two-sorted-lists/
 .. __: code/21-merge-two-sorted-lists.py
 
+.. __: https://oj.leetcode.com/problems/merge-k-sorted-lists/
+.. __: code/23-merge-k-sorted-lists.py
+
+.. __: https://oj.leetcode.com/problems/swap-nodes-in-pairs/
+.. __: code/24-swap-nodes-in-pairs.py
+
+.. __: https://oj.leetcode.com/problems/reverse-nodes-in-k-group/
+.. __: code/25-reverse-nodes-in-k-group.py
 
 
 Regular Expression
@@ -80,12 +91,16 @@ Regular Expression
 Stack
 =====
 
-=== ====================== ======
- 20 `Valid Parentheses`__  TODO__
-=== ====================== ======
+=== ============================== ======
+ 20 `Valid Parentheses`__          DONE__
+ 32 `Longest Valid Parentheses`__  DONE__
+=== ============================== ======
 
 .. __: https://oj.leetcode.com/problems/valid-parentheses/
 .. __: code/20-valid-parentheses.py
+
+.. __: https://oj.leetcode.com/problems/longest-valid-parentheses/
+.. __: code/32-longest-valid-parentheses.py
 
 
 Sum
@@ -121,7 +136,7 @@ Uncategorized
   5 `Longest Palindromic Substring`__                   TODO__
   6 `ZigZag Conversion`__                               DONE__
  11 `Container With Most Water`__                       TODO__
- 14 `Longest Common Prefix`__                           TODO__
+ 14 `Longest Common Prefix`__                           DONE__
 === =================================================== ======
 
 .. __: https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/

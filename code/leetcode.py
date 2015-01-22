@@ -4,9 +4,13 @@ def list_node_from_iter(it):
     except StopIteration:
         return None
 
-    node = ListNode(e)
-    node.next = list_node_from_iter(it)
-    return node
+    root = ListNode(e)
+    cur = root
+    for e in it:
+        node = ListNode(e)
+        cur.next = node
+        cur = node
+    return root
 
 
 class ListNode:

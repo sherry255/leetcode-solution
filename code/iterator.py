@@ -37,7 +37,7 @@ def foldr(f, acc, it):
     return f(acc, v)
 
 
-def merge(f, *iters):
+def merge(f, iters):
     empty = []
     values = []
 
@@ -59,3 +59,39 @@ def merge(f, *iters):
         except StopIteration:
             values.pop(i)
             iters.pop(i)
+
+
+def take_n(it, n):
+    values = []
+    while n:
+        try:
+            values.append(next(it))
+        except StopIteration:
+            break
+        n -= 1
+    return values
+
+
+def reverse_by_n(it, n):
+    while True:
+        values = take_n(it, n)
+        if len(values) < n:
+            for e in values:
+                yield e
+            break
+        else:
+            for e in reversed(values):
+                yield e
+
+
+def imap(f, *args):
+    it = izip(*args)
+    for e in it:
+        yield f(*e)
+
+
+def takewhile(f, it):
+    for e in it:
+        if not f(e):
+            return
+        yield e

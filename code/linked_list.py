@@ -6,6 +6,7 @@ def new_node(val, next):
     node.next = next
     return node
 
+
 def list_node_to_iter(n):
     while n is not None:
         yield n.val
@@ -18,6 +19,10 @@ def list_node_from_iter(it):
     except StopIteration:
         return None
 
-    node = ListNode(e)
-    node.next = list_node_from_iter(it)
-    return node
+    root = ListNode(e)
+    cur = root
+    for e in it:
+        node = ListNode(e)
+        cur.next = node
+        cur = node
+    return root
