@@ -5,10 +5,10 @@
 -321
 """
 
+from number import sign, overflow32
 from digit import int2digits, digits2int_b
 
+
 def reverse(x):
-    n = (-1 if (x<0) else 1) * digits2int_b(int2digits(abs(x)))
-    if -2147483648 <= n <= 2147483647:
-        return n
-    return 0
+    n = sign(x) * digits2int_b(int2digits(abs(x)))
+    return overflow32(n, 0, 0)
