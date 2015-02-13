@@ -5,31 +5,41 @@
 3
 """
 
+from binary_search import (
+    search_range,
+    search_range_size,
+    search_range_midpoint,
+    search_range_left,
+    search_range_right)
+
+
 def kth(A, B, k):
-    i1, i2 = 0, len(A)
-    j1, j2 = 0, len(B)
+    ra = search_range(0, len(A))
+    rb = search_range(0, len(B))
 
     while True:
-        if i2 <= i1:
-            return B[j1+k]
-        if j2 <= j1:
-            return A[i1+k]
+        if search_range_size(ra) <= 0:
+            return B[rb[0]+k]
+        if search_range_size(rb) <= 0:
+            return A[ra[0]+k]
 
-        i = (i1+i2) // 2
-        j = (j1+j2) // 2
+        ma = search_range_midpoint(ra)
+        mb = search_range_midpoint(rb)
+        rla = search_range_left(ra, ma)
+        rlb = search_range_left(rb, mb)
 
-        if (i-i1)+(j-j1) < k:
-            if A[i] < B[j]:
-                k -= i + 1 - i1
-                i1 = i+1
+        if search_range_size(rla)+search_range_size(rlb) < k:
+            if A[ma] < B[mb]:
+                k -= 1+search_range_size(rla)
+                ra = search_range_right(ra, ma)
             else:
-                k -= j + 1 - j1
-                j1 = j+1
+                k -= 1+search_range_size(rlb)
+                rb = search_range_right(rb, mb)
         else:
-            if A[i] > B[j]:
-                i2 = i
+            if A[ma] > B[mb]:
+                ra = rla
             else:
-                j2 = j
+                rb = rlb
 
 
 def findMedianSortedArrays(A,B):

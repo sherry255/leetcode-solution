@@ -39,6 +39,12 @@ Solution List
  30 Substring with Concatenation of All Words
  31 Next Permutation
  32 `Longest Valid Parentheses`__
+ 33 `Search in Rotated Sorted Array`__
+ 34 `Search for a Range`__
+ 35 `Search Insert Position`__
+ 81 `Search in Rotated Sorted Array II`__
+153 `Find Minimum in Rotated Sorted Array`__
+154 `Find Minimum in Rotated Sorted Array II`__
 === ====================================================
 
 .. __: code/1-two-sum.py
@@ -63,7 +69,12 @@ Solution List
 .. __: code/27-remove-element.py
 .. __: code/29-divide-two-integers.py
 .. __: code/32-longest-valid-parentheses.py
-
+.. __: code/33-search-in-rotated-sorted-array.py
+.. __: code/34-search-for-a-range.py
+.. __: code/35-search-insert-position.py
+.. __: code/81-search-in-rotated-sorted-array-ii.py
+.. __: code/153-find-minimum-in-rotated-sorted-array.py
+.. __: code/154-find-minimum-in-rotated-sorted-array-ii.py
 
 
 Progress
@@ -93,6 +104,41 @@ Array
 .. __: https://oj.leetcode.com/problems/remove-element/
 .. __: code/27-remove-element.py
 
+
+
+Binary Search
+=============
+
+=== ============================================ ======
+  4 `Median of Two Sorted Arrays`__              DONE__
+ 33 `Search in Rotated Sorted Array`__           DONE__
+ 34 `Search for a Range`__                       DONE__
+ 35 `Search Insert Position`__                   DONE__
+ 81 `Search in Rotated Sorted Array II`__        DONE__
+153 `Find Minimum in Rotated Sorted Array`__     DONE__
+154 `Find Minimum in Rotated Sorted Array II`__  DONE__
+=== ============================================ ======
+
+.. __: https://oj.leetcode.com/problems/median-of-two-sorted-arrays/
+.. __: code/4-median-of-two-sorted-arrays.py
+
+.. __: https://oj.leetcode.com/problems/search-in-rotated-sorted-array/
+.. __: code/33-search-in-rotated-sorted-array.py
+
+.. __: https://oj.leetcode.com/problems/search-for-a-range/
+.. __: code/34-search-for-a-range.py
+
+.. __: https://oj.leetcode.com/problems/search-insert-position/
+.. __: code/35-search-insert-position.py
+
+.. __: https://oj.leetcode.com/problems/search-in-rotated-sorted-array-ii/
+.. __: code/81-search-in-rotated-sorted-array-ii.py
+
+.. __: https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+.. __: code/153-find-minimum-in-rotated-sorted-array.py
+
+.. __: https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
+.. __: code/154-find-minimum-in-rotated-sorted-array-ii.py
 
 
 Bit
@@ -245,7 +291,6 @@ Uncategorized
 
 === =================================================== ======
   3 `Longest Substring Without Repeating Characters`__  DONE__
-  4 `Median of Two Sorted Arrays`__                     DONE__
   5 `Longest Palindromic Substring`__                   TODO__
   6 `ZigZag Conversion`__                               DONE__
  11 `Container With Most Water`__                       TODO__
@@ -254,9 +299,6 @@ Uncategorized
 
 .. __: https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/
 .. __: code/3-longest-substring-without-repeating-characters.py
-
-.. __: https://oj.leetcode.com/problems/median-of-two-sorted-arrays/
-.. __: code/4-median-of-two-sorted-arrays.py
 
 .. __: https://oj.leetcode.com/problems/longest-palindromic-substring/
 .. __: code/5-longest-palindromic-substring.py
