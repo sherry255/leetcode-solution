@@ -42,6 +42,14 @@ Solution List
  33 `Search in Rotated Sorted Array`__
  34 `Search for a Range`__
  35 `Search Insert Position`__
+ 36 `Valid Sudoku`__
+ 37 `Sudoku Solver`__
+ 38 `Count and Say`__
+ 39 `Combination Sum`__
+ 40 `Combination Sum II`__
+ 41 First Missing Positive
+ 42 Trapping Rain Water
+ 80 `Remove Duplicates from Sorted Array II`__
  81 `Search in Rotated Sorted Array II`__
 153 `Find Minimum in Rotated Sorted Array`__
 154 `Find Minimum in Rotated Sorted Array II`__
@@ -72,9 +80,16 @@ Solution List
 .. __: code/33-search-in-rotated-sorted-array.py
 .. __: code/34-search-for-a-range.py
 .. __: code/35-search-insert-position.py
+.. __: code/36-valid-sudoku.py
+.. __: code/37-sudoku-solver.py
+.. __: code/38-count-and-say.py
+.. __: code/39-combination-sum.py
+.. __: code/40-combination-sum-ii.py
+.. __: code/80-remove-duplicates-from-sorted-array-ii.py
 .. __: code/81-search-in-rotated-sorted-array-ii.py
 .. __: code/153-find-minimum-in-rotated-sorted-array.py
 .. __: code/154-find-minimum-in-rotated-sorted-array-ii.py
+
 
 
 Progress
@@ -93,16 +108,33 @@ TLE  time limit exceeded
 Array
 =====
 
-=== ======================================== ======
- 26 `Remove Duplicates from Sorted Array`__  DONE__
- 27 `Remove Element`__                       DONE__
-=== ======================================== ======
+=== ============================================ ======
+ 26 `Remove Duplicates from Sorted Array`__      DONE__
+ 27 `Remove Element`__                           DONE__
+ 80 `Remove Duplicates from Sorted Array II`__   DONE__
+=== ============================================ ======
 
 .. __: https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/
 .. __: code/26-remove-duplicates-from-sorted-array.py
 
 .. __: https://oj.leetcode.com/problems/remove-element/
 .. __: code/27-remove-element.py
+
+.. __: https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+.. __: code/80-remove-duplicates-from-sorted-array-ii.py
+
+
+
+Backtracking
+============
+
+=== =================== ======
+ 37 `Sudoku Solver`__   DONE__
+=== =================== ======
+
+.. __: https://oj.leetcode.com/problems/sudoku-solver/
+.. __: code/37-sudoku-solver.py
+
 
 
 
@@ -141,6 +173,7 @@ Binary Search
 .. __: code/154-find-minimum-in-rotated-sorted-array-ii.py
 
 
+
 Bit
 ===
 
@@ -160,6 +193,8 @@ Combinatorics
  17 `Letter Combinations of a Phone Number`__  DONE__
  22 `Generate Parentheses`__                   DONE__
  31 `Next Permutation`__                       TODO__
+ 39 `Combination Sum`__                        DONE__
+ 40 `Combination Sum II`__                     DONE__
 === ========================================== ======
 
 .. __: https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/
@@ -170,6 +205,12 @@ Combinatorics
 
 .. __: https://oj.leetcode.com/problems/next-permutation/
 .. __: code/31-next-permutation.py
+
+.. __: https://oj.leetcode.com/problems/combination-sum/
+.. __: code/39-combination-sum.py
+
+.. __: https://oj.leetcode.com/problems/combination-sum-ii/
+.. __: code/40-combination-sum-ii.py
 
 
 
@@ -182,6 +223,7 @@ Digit
   9 `Palindrome Number`__         DONE__
  12 `Integer to Roman`__          DONE__
  13 `Roman to Integer`__          DONE__
+ 38 `Count and Say`__             DONE__
 === ============================= ======
 
 .. __: https://oj.leetcode.com/problems/reverse-integer/
@@ -198,6 +240,9 @@ Digit
 
 .. __: https://oj.leetcode.com/problems/roman-to-integer/
 .. __: code/13-roman-to-integer.py
+
+.. __: https://oj.leetcode.com/problems/count-and-say/
+.. __: code/38-count-and-say.py
 
 
 
@@ -230,7 +275,6 @@ Linked List
 
 .. __: https://oj.leetcode.com/problems/reverse-nodes-in-k-group/
 .. __: code/25-reverse-nodes-in-k-group.py
-
 
 
 
@@ -295,6 +339,7 @@ Uncategorized
   6 `ZigZag Conversion`__                               DONE__
  11 `Container With Most Water`__                       TODO__
  14 `Longest Common Prefix`__                           DONE__
+ 36 `Valid Sudoku`__                                    DONE__
 === =================================================== ======
 
 .. __: https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/
@@ -311,3 +356,6 @@ Uncategorized
 
 .. __: https://oj.leetcode.com/problems/longest-common-prefix/
 .. __: code/14-longest-common-prefix.py
+
+.. __: https://oj.leetcode.com/problems/valid-sudoku/
+.. __: code/36-valid-sudoku.py
