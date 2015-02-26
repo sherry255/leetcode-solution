@@ -37,7 +37,7 @@ Solution List
  28 Implement strStr()
  29 `Divide Two Integers`__
  30 Substring with Concatenation of All Words
- 31 Next Permutation
+ 31 `Next Permutation`__
  32 `Longest Valid Parentheses`__
  33 `Search in Rotated Sorted Array`__
  34 `Search for a Range`__
@@ -49,6 +49,16 @@ Solution List
  40 `Combination Sum II`__
  41 First Missing Positive
  42 Trapping Rain Water
+ 43 `Multiply Strings`__
+ 44 Wildcard Matching
+ 45 `Jump Game II`__
+ 46 `Permutations`__
+ 47 `Permutations II`__
+ 48 `Rotate Image`__
+ 49 `Anagrams`__
+ 50 Pow(x, n)
+ 55 `Jump Game`__
+ 60 `Permutation Sequence`__
  80 `Remove Duplicates from Sorted Array II`__
  81 `Search in Rotated Sorted Array II`__
 153 `Find Minimum in Rotated Sorted Array`__
@@ -76,6 +86,7 @@ Solution List
 .. __: code/26-remove-duplicates-from-sorted-array.py
 .. __: code/27-remove-element.py
 .. __: code/29-divide-two-integers.py
+.. __: code/31-next-permutation.py
 .. __: code/32-longest-valid-parentheses.py
 .. __: code/33-search-in-rotated-sorted-array.py
 .. __: code/34-search-for-a-range.py
@@ -85,6 +96,14 @@ Solution List
 .. __: code/38-count-and-say.py
 .. __: code/39-combination-sum.py
 .. __: code/40-combination-sum-ii.py
+.. __: code/43-multiply-strings.py
+.. __: code/45-jump-game-ii.py
+.. __: code/46-permutations.py
+.. __: code/47-permutations-ii.py
+.. __: code/48-rotate-image.py
+.. __: code/49-anagrams.py
+.. __: code/55-jump-game.py
+.. __: code/60-permutation-sequence.py
 .. __: code/80-remove-duplicates-from-sorted-array-ii.py
 .. __: code/81-search-in-rotated-sorted-array-ii.py
 .. __: code/153-find-minimum-in-rotated-sorted-array.py
@@ -192,9 +211,12 @@ Combinatorics
 === ========================================== ======
  17 `Letter Combinations of a Phone Number`__  DONE__
  22 `Generate Parentheses`__                   DONE__
- 31 `Next Permutation`__                       TODO__
+ 31 `Next Permutation`__                       DONE__
  39 `Combination Sum`__                        DONE__
  40 `Combination Sum II`__                     DONE__
+ 46 `Permutations`__                           DONE__
+ 47 `Permutations II`__                        DONE__
+ 60 `Permutation Sequence`__                   DONE__
 === ========================================== ======
 
 .. __: https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/
@@ -212,6 +234,15 @@ Combinatorics
 .. __: https://oj.leetcode.com/problems/combination-sum-ii/
 .. __: code/40-combination-sum-ii.py
 
+.. __: https://oj.leetcode.com/problems/permutations/
+.. __: code/46-permutations.py
+
+.. __: https://oj.leetcode.com/problems/permutations-ii/
+.. __: code/47-permutations-ii.py
+
+.. __: https://oj.leetcode.com/problems/permutation-sequence/
+.. __: code/60-permutation-sequence.py
+
 
 
 Digit
@@ -224,6 +255,7 @@ Digit
  12 `Integer to Roman`__          DONE__
  13 `Roman to Integer`__          DONE__
  38 `Count and Say`__             DONE__
+ 43 `Multiply Strings`__          DONE__
 === ============================= ======
 
 .. __: https://oj.leetcode.com/problems/reverse-integer/
@@ -243,6 +275,9 @@ Digit
 
 .. __: https://oj.leetcode.com/problems/count-and-say/
 .. __: code/38-count-and-say.py
+
+.. __: https://oj.leetcode.com/problems/multiply-strings/
+.. __: code/43-multiply-strings.py
 
 
 
@@ -278,15 +313,23 @@ Linked List
 
 
 
-Regular Expression
-==================
+Matching
+========
 
 === ================================ ======
  10 `Regular Expression Matching`__  TODO__
+ 28 `Implement strStr()`__           TODO__
+ 44 `Wildcard Matching`__            TODO__
 === ================================ ======
 
 .. __: https://oj.leetcode.com/problems/regular-expression-matching/
 .. __: code/10-regular-expression-matching.py
+
+.. __: https://oj.leetcode.com/problems/implement-strstr/
+.. __: code/28-implement-strstr.py
+
+.. __: https://oj.leetcode.com/problems/wildcard-matching/
+.. __: code/44-wildcard-matching.py
 
 
 
@@ -340,6 +383,11 @@ Uncategorized
  11 `Container With Most Water`__                       TODO__
  14 `Longest Common Prefix`__                           DONE__
  36 `Valid Sudoku`__                                    DONE__
+ 45 `Jump Game II`__                                    DONE__
+ 48 `Rotate Image`__                                    TODO__
+ 49 `Anagrams`__                                        DONE__
+ 50 `Pow(x, n)`__                                       TODO__
+ 55 `Jump Game`__                                       DONE__
 === =================================================== ======
 
 .. __: https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/
@@ -359,3 +407,18 @@ Uncategorized
 
 .. __: https://oj.leetcode.com/problems/valid-sudoku/
 .. __: code/36-valid-sudoku.py
+
+.. __: https://oj.leetcode.com/problems/jump-game-ii/
+.. __: code/45-jump-game-ii.py
+
+.. __: https://oj.leetcode.com/problems/rotate-image/
+.. __: code/48-rotate-image.py
+
+.. __: https://oj.leetcode.com/problems/anagrams/
+.. __: code/49-anagrams.py
+
+.. __: https://oj.leetcode.com/problems/powx-n/
+.. __: code/50-powx-n.py
+
+.. __: https://oj.leetcode.com/problems/jump-game/
+.. __: code/55-jump-game.py
