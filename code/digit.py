@@ -1,7 +1,7 @@
-def int2digits(x):
+def int2digits(x, base=10):
     while x:
-        yield x%10
-        x = x // 10
+        yield x%base
+        x //= base
 
 def digits2int_b(it):
     i = 0
@@ -15,6 +15,14 @@ def digits2int_l(it):
         r += d * (10 ** i)
     return r
 
+def add_by_digit(it, base=10):
+    c = 0
+    for a, b in it:
+        r = a+b+c
+        yield r%base
+        c = r//base
+    if c > 0:
+        yield c
 
 def roman_int_map():
     return (

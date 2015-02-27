@@ -1,3 +1,14 @@
+def p(m,n):
+    r = 1
+    for i in xrange(m, m-n, -1):
+        r *= i
+    return r
+
+
+def c(m,n):
+    return p(m,n)/p(n,n)
+
+
 def product(*args):
     r = [()]
     for a in args:

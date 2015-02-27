@@ -26,3 +26,9 @@ class ListNode:
     @staticmethod
     def from_iter(iterable):
         return list_node_from_iter(iter(iterable))
+
+
+class Interval:
+    def __init__(self, s=0, e=0):
+        self.start = s
+        self.end = e

@@ -1,3 +1,9 @@
+def count(start, step=1):
+    while True:
+        yield start
+        start += step
+
+
 def chain(*args):
     for it in args:
         for e in it:

@@ -54,11 +54,26 @@ Solution List
  45 `Jump Game II`__
  46 `Permutations`__
  47 `Permutations II`__
- 48 `Rotate Image`__
+ 48 Rotate Image
  49 `Anagrams`__
- 50 Pow(x, n)
+ 50 `Pow(x, n)`__
+ 51 `N-Queens`__
+ 52 `N-Queens II`__
+ 53 `Maximum Subarray`__
+ 54 `Spiral Matrix`__
  55 `Jump Game`__
+ 56 `Merge Intervals`__
+ 57 `Insert Interval`__
+ 58 Length of Last Word
+ 59 `Spiral Matrix II`__
  60 `Permutation Sequence`__
+ 61 Rotate List
+ 62 `Unique Paths`__
+ 63 `Unique Paths II`__
+ 64 `Minimum Path Sum`__
+ 65 Valid Number
+ 66 `Plus One`__
+ 67 `Add Binary`__
  80 `Remove Duplicates from Sorted Array II`__
  81 `Search in Rotated Sorted Array II`__
 153 `Find Minimum in Rotated Sorted Array`__
@@ -100,10 +115,22 @@ Solution List
 .. __: code/45-jump-game-ii.py
 .. __: code/46-permutations.py
 .. __: code/47-permutations-ii.py
-.. __: code/48-rotate-image.py
 .. __: code/49-anagrams.py
+.. __: code/50-powx-n.py
+.. __: code/51-n-queens.py
+.. __: code/52-n-queens-ii.py
+.. __: code/53-maximum-subarray.py
+.. __: code/54-spiral-matrix.py
 .. __: code/55-jump-game.py
+.. __: code/56-merge-intervals.py
+.. __: code/57-insert-interval.py
+.. __: code/59-spiral-matrix-ii.py
 .. __: code/60-permutation-sequence.py
+.. __: code/62-unique-paths.py
+.. __: code/63-unique-paths-ii.py
+.. __: code/64-minimum-path-sum.py
+.. __: code/66-plus-one.py
+.. __: code/67-add-binary.py
 .. __: code/80-remove-duplicates-from-sorted-array-ii.py
 .. __: code/81-search-in-rotated-sorted-array-ii.py
 .. __: code/153-find-minimum-in-rotated-sorted-array.py
@@ -149,11 +176,18 @@ Backtracking
 
 === =================== ======
  37 `Sudoku Solver`__   DONE__
+ 51 `N-Queens`__        DONE__
+ 52 `N-Queens II`__     DONE__
 === =================== ======
 
 .. __: https://oj.leetcode.com/problems/sudoku-solver/
 .. __: code/37-sudoku-solver.py
 
+.. __: https://oj.leetcode.com/problems/n-queens/
+.. __: code/51-n-queens.py
+
+.. __: https://oj.leetcode.com/problems/n-queens-ii/
+.. __: code/52-n-queens-ii.py
 
 
 
@@ -217,6 +251,8 @@ Combinatorics
  46 `Permutations`__                           DONE__
  47 `Permutations II`__                        DONE__
  60 `Permutation Sequence`__                   DONE__
+ 62 `Unique Paths`__                           DONE__
+ 63 `Unique Paths II`__                        DONE__
 === ========================================== ======
 
 .. __: https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/
@@ -243,6 +279,12 @@ Combinatorics
 .. __: https://oj.leetcode.com/problems/permutation-sequence/
 .. __: code/60-permutation-sequence.py
 
+.. __: https://oj.leetcode.com/problems/unique-paths/
+.. __: code/62-unique-paths.py
+
+.. __: https://oj.leetcode.com/problems/unique-paths-ii/
+.. __: code/63-unique-paths-ii.py
+
 
 
 Digit
@@ -256,6 +298,9 @@ Digit
  13 `Roman to Integer`__          DONE__
  38 `Count and Say`__             DONE__
  43 `Multiply Strings`__          DONE__
+ 50 `Pow(x, n)`__                 DONE__
+ 66 `Plus One`__                  DONE__
+ 67 `Add Binary`__                DONE__
 === ============================= ======
 
 .. __: https://oj.leetcode.com/problems/reverse-integer/
@@ -279,6 +324,30 @@ Digit
 .. __: https://oj.leetcode.com/problems/multiply-strings/
 .. __: code/43-multiply-strings.py
 
+.. __: https://oj.leetcode.com/problems/powx-n/
+.. __: code/50-powx-n.py
+
+.. __: https://oj.leetcode.com/problems/plus-one/
+.. __: code/66-plus-one.py
+
+.. __: https://oj.leetcode.com/problems/add-binary/
+.. __: code/67-add-binary.py
+
+
+
+Dynamic Programming
+===================
+
+=== ====================== ======
+ 53 `Maximum Subarray`__   DONE__
+ 64 `Minimum Path Sum`__   DONE__
+=== ====================== ======
+
+.. __: https://oj.leetcode.com/problems/maximum-subarray/
+.. __: code/53-maximum-subarray.py
+
+.. __: https://oj.leetcode.com/problems/minimum-path-sum/
+.. __: code/64-minimum-path-sum.py
 
 
 Linked List
@@ -378,29 +447,23 @@ Uncategorized
 
 === =================================================== ======
   3 `Longest Substring Without Repeating Characters`__  DONE__
-  5 `Longest Palindromic Substring`__                   TODO__
   6 `ZigZag Conversion`__                               DONE__
- 11 `Container With Most Water`__                       TODO__
  14 `Longest Common Prefix`__                           DONE__
  36 `Valid Sudoku`__                                    DONE__
  45 `Jump Game II`__                                    DONE__
- 48 `Rotate Image`__                                    TODO__
  49 `Anagrams`__                                        DONE__
- 50 `Pow(x, n)`__                                       TODO__
+ 54 `Spiral Matrix`__                                   DONE__
  55 `Jump Game`__                                       DONE__
+ 56 `Merge Intervals`__                                 DONE__
+ 57 `Insert Interval`__                                 DONE__
+ 59 `Spiral Matrix II`__                                DONE__
 === =================================================== ======
 
 .. __: https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/
 .. __: code/3-longest-substring-without-repeating-characters.py
 
-.. __: https://oj.leetcode.com/problems/longest-palindromic-substring/
-.. __: code/5-longest-palindromic-substring.py
-
 .. __: https://oj.leetcode.com/problems/zigzag-conversion/
 .. __: code/6-zigzag-conversion.py
-
-.. __: https://oj.leetcode.com/problems/container-with-most-water/
-.. __: code/11-container-with-most-water.py
 
 .. __: https://oj.leetcode.com/problems/longest-common-prefix/
 .. __: code/14-longest-common-prefix.py
@@ -411,14 +474,20 @@ Uncategorized
 .. __: https://oj.leetcode.com/problems/jump-game-ii/
 .. __: code/45-jump-game-ii.py
 
-.. __: https://oj.leetcode.com/problems/rotate-image/
-.. __: code/48-rotate-image.py
-
 .. __: https://oj.leetcode.com/problems/anagrams/
 .. __: code/49-anagrams.py
 
-.. __: https://oj.leetcode.com/problems/powx-n/
-.. __: code/50-powx-n.py
+.. __: https://oj.leetcode.com/problems/spiral-matrix/
+.. __: code/54-spiral-matrix.py
 
 .. __: https://oj.leetcode.com/problems/jump-game/
 .. __: code/55-jump-game.py
+
+.. __: https://oj.leetcode.com/problems/merge-intervals/
+.. __: code/56-merge-intervals.py
+
+.. __: https://oj.leetcode.com/problems/insert-interval/
+.. __: code/57-insert-interval.py
+
+.. __: https://oj.leetcode.com/problems/spiral-matrix-ii/
+.. __: code/59-spiral-matrix-ii.py

@@ -22,18 +22,26 @@ def deselect(Cols, Rows, r, cols):
                     Cols[col].add(row)
 
 
-def solve(Cols, Rows, solution):
-    if not Cols:
+def solve(Cols, Rows, solution, is_primary=None):
+    if is_primary:
+        primaries = {
+            k:v for k, v in Cols.iteritems()
+            if is_primary(k)
+        }
+    else:
+        primaries = Cols
+
+    if not primaries:
         yield solution
 
     else:
-        rows = min(Cols.itervalues(), key=len)
+        rows = min(primaries.itervalues(), key=len)
         for r in list(rows):
             solution.append(r)
 
             cols = select(Cols, Rows, r)
 
-            for s in solve(Cols, Rows, solution):
+            for s in solve(Cols, Rows, solution, is_primary):
                 yield s
 
             deselect(Cols, Rows, r, cols)
