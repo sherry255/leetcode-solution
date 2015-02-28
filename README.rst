@@ -6,7 +6,7 @@ LeetCode Solutions
 Solution List
 =============
 
-=== ====================================================
+=== ================================================================
   1 `Two Sum`__
   2 `Add Two Numbers`__
   3 `Longest Substring Without Repeating Characters`__
@@ -74,11 +74,94 @@ Solution List
  65 Valid Number
  66 `Plus One`__
  67 `Add Binary`__
+ 68 Text Justification
+ 69 Sqrt(x)
+ 70 `Climbing Stairs`__
+ 71 Simplify Path
+ 72 Edit Distance
+ 73 Set Matrix Zeroes
+ 74 Search a 2D Matrix
+ 75 `Sort Colors`__
+ 76 Minimum Window Substring
+ 77 `Combinations`__
+ 78 `Subsets`__
+ 79 Word Search
  80 `Remove Duplicates from Sorted Array II`__
  81 `Search in Rotated Sorted Array II`__
+ 82 Remove Duplicates from Sorted List II
+ 83 Remove Duplicates from Sorted List
+ 84 Largest Rectangle in Histogram
+ 85 Maximal Rectangle
+ 86 Partition List
+ 87 Scramble String
+ 88 Merge Sorted Array
+ 89 `Gray Code`__
+ 90 `Subsets II`__
+ 91 `Decode Ways`__
+ 92 Reverse Linked List II
+ 93 Restore IP Addresses
+ 94 `Binary Tree Inorder Traversal`__
+ 95 Unique Binary Search Trees II
+ 96 `Unique Binary Search Trees`__
+ 97 Interleaving String
+ 98 `Validate Binary Search Tree`__
+ 99 Recover Binary Search Tree
+100 `Same Tree`__
+101 `Symmetric Tree`__
+102 `Binary Tree Level Order Traversal`__
+103 `Binary Tree Zigzag Level Order Traversal`__
+104 `Maximum Depth of Binary Tree`__
+105 Construct Binary Tree from Preorder and Inorder Traversal
+106 Construct Binary Tree from Inorder and Postorder Traversal
+107 `Binary Tree Level Order Traversal I`__
+108 Convert Sorted Array to Binary Search Tree
+109 Convert Sorted List to Binary Search Tree
+110 `Balanced Binary Tree`__
+111 `Minimum Depth of Binary Tree`__
+112 `Path Sum`__
+113 `Path Sum II`__
+114 Flatten Binary Tree to Linked List
+115 Distinct Subsequences
+116 `Populating Next Right Pointers in Each Node`__
+117 `Populating Next Right Pointers in Each Node II`__
+118 Pascal's Triangle
+119 Pascal's Triangle II
+120 Triangle
+121 Best Time to Buy and Sell Stock
+122 Best Time to Buy and Sell Stock II
+123 Best Time to Buy and Sell Stock III
+124 Binary Tree Maximum Path Sum
+125 Valid Palindrome
+126 Word Ladder II
+127 Word Ladder
+128 Longest Consecutive Sequence
+129 `Sum Root to Leaf Numbers`__
+130 Surrounded Regions
+131 Palindrome Partitioning
+132 Palindrome Partitioning II
+133 Clone Graph
+134 Gas Station
+135 Candy
+136 Single Number
+137 Single Number II
+138 Copy List with Random Pointer
+139 Word Break
+140 Word Break II
+141 Linked List Cycle
+142 Linked List Cycle II
+143 Reorder List
+144 `Binary Tree Preorder Traversal`__
+145 `Binary Tree Postorder Traversal`__
+146 LRU Cache
+147 Insertion Sort List
+148 Sort List
+149 Max Points on a Line
+150 Evaluate Reverse Polish Notation
+151 Reverse Words in a String
+152 Maximum Product Subarray
 153 `Find Minimum in Rotated Sorted Array`__
 154 `Find Minimum in Rotated Sorted Array II`__
-=== ====================================================
+=== ================================================================
 
 .. __: code/1-two-sum.py
 .. __: code/2-add-two-numbers.py
@@ -131,8 +214,33 @@ Solution List
 .. __: code/64-minimum-path-sum.py
 .. __: code/66-plus-one.py
 .. __: code/67-add-binary.py
+.. __: code/70-climbing-stairs.py
+.. __: code/75-sort-colors.py
+.. __: code/77-combinations.py
+.. __: code/78-subsets.py
 .. __: code/80-remove-duplicates-from-sorted-array-ii.py
 .. __: code/81-search-in-rotated-sorted-array-ii.py
+.. __: code/89-gray-code.py
+.. __: code/90-subsets-ii.py
+.. __: code/91-decode-ways.py
+.. __: code/94-binary-tree-inorder-traversal.py
+.. __: code/96-unique-binary-search-trees.py
+.. __: code/98-validate-binary-search-tree.py
+.. __: code/100-same-tree.py
+.. __: code/101-symmetric-tree.py
+.. __: code/102-binary-tree-level-order-traversal.py
+.. __: code/103-binary-tree-zigzag-level-order-traversal.py
+.. __: code/104-maximum-depth-of-binary-tree.py
+.. __: code/107-binary-tree-level-order-traversal-ii.py
+.. __: code/110-balanced-binary-tree.py
+.. __: code/111-minimum-depth-of-binary-tree.py
+.. __: code/112-path-sum.py
+.. __: code/113-path-sum-ii.py
+.. __: code/116-populating-next-right-pointers-in-each-node.py
+.. __: code/117-populating-next-right-pointers-in-each-node-ii.py
+.. __: code/129-sum-root-to-leaf-numbers.py
+.. __: code/144-binary-tree-preorder-traversal.py
+.. __: code/145-binary-tree-postorder-traversal.py
 .. __: code/153-find-minimum-in-rotated-sorted-array.py
 .. __: code/154-find-minimum-in-rotated-sorted-array-ii.py
 
@@ -227,6 +335,82 @@ Binary Search
 
 
 
+Binary Tree
+===========
+
+=== ==================================================== ======
+ 94 `Binary Tree Inorder Traversal`__                    DONE__
+ 98 `Validate Binary Search Tree`__                      DONE__
+100 `Same Tree`__                                        DONE__
+101 `Symmetric Tree`__                                   DONE__
+102 `Binary Tree Level Order Traversal`__                DONE__
+103 `Binary Tree Zigzag Level Order Traversal`__         DONE__
+104 `Maximum Depth of Binary Tree`__                     DONE__
+107 `Binary Tree Level Order Traversal II`__             DONE__
+110 `Balanced Binary Tree`__                             DONE__
+111 `Minimum Depth of Binary Tree`__                     DONE__
+112 `Path Sum`__                                         DONE__
+113 `Path Sum II`__                                      DONE__
+116 `Populating Next Right Pointers in Each Node`__      DONE__
+117 `Populating Next Right Pointers in Each Node II`__   NIP__
+129 `Sum Root to Leaf Numbers`__                         DONE__
+144 `Binary Tree Preorder Traversal`__                   DONE__
+145 `Binary Tree Postorder Traversal`__                  DONE__
+=== ==================================================== ======
+
+.. __: https://oj.leetcode.com/problems/binary-tree-inorder-traversal/
+.. __: code/94-binary-tree-inorder-traversal.py
+
+.. __: https://oj.leetcode.com/problems/validate-binary-search-tree/
+.. __: code/98-validate-binary-search-tree.py
+
+.. __: https://oj.leetcode.com/problems/same-tree/
+.. __: code/100-same-tree.py
+
+.. __: https://oj.leetcode.com/problems/symmetric-tree/
+.. __: code/101-symmetric-tree.py
+
+.. __: https://oj.leetcode.com/problems/binary-tree-level-order-traversal/
+.. __: code/102-binary-tree-level-order-traversal.py
+
+.. __: https://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+.. __: code/103-binary-tree-zigzag-level-order-traversal.py
+
+.. __: https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/
+.. __: code/104-maximum-depth-of-binary-tree.py
+
+.. __: https://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/
+.. __: code/107-binary-tree-level-order-traversal-ii.py
+
+.. __: https://oj.leetcode.com/problems/balanced-binary-tree/
+.. __: code/110-balanced-binary-tree.py
+
+.. __: https://oj.leetcode.com/problems/minimum-depth-of-binary-tree/
+.. __: code/111-minimum-depth-of-binary-tree.py
+
+.. __: https://oj.leetcode.com/problems/path-sum/
+.. __: code/112-path-sum.py
+
+.. __: https://oj.leetcode.com/problems/path-sum-ii/
+.. __: code/113-path-sum-ii.py
+
+.. __: https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/
+.. __: code/116-populating-next-right-pointers-in-each-node.py
+
+.. __: https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
+.. __: code/117-populating-next-right-pointers-in-each-node-ii.py
+
+.. __: https://oj.leetcode.com/problems/sum-root-to-leaf-numbers/
+.. __: code/129-sum-root-to-leaf-numbers.py
+
+.. __: https://oj.leetcode.com/problems/binary-tree-preorder-traversal/
+.. __: code/144-binary-tree-preorder-traversal.py
+
+.. __: https://oj.leetcode.com/problems/binary-tree-postorder-traversal/
+.. __: code/145-binary-tree-postorder-traversal.py
+
+
+
 Bit
 ===
 
@@ -253,6 +437,11 @@ Combinatorics
  60 `Permutation Sequence`__                   DONE__
  62 `Unique Paths`__                           DONE__
  63 `Unique Paths II`__                        DONE__
+ 77 `Combinations`__                           DONE__
+ 78 `Subsets`__                                DONE__
+ 89 `Gray Code`__                              DONE__
+ 90 `Subsets II`__                             DONE__
+ 96 `Unique Binary Search Trees`__             DONE__
 === ========================================== ======
 
 .. __: https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/
@@ -284,6 +473,21 @@ Combinatorics
 
 .. __: https://oj.leetcode.com/problems/unique-paths-ii/
 .. __: code/63-unique-paths-ii.py
+
+.. __: https://oj.leetcode.com/problems/combinations/
+.. __: code/77-combinations.py
+
+.. __: https://oj.leetcode.com/problems/subsets/
+.. __: code/78-subsets.py
+
+.. __: https://oj.leetcode.com/problems/gray-code/
+.. __: code/89-gray-code.py
+
+.. __: https://oj.leetcode.com/problems/subsets-ii/
+.. __: code/90-subsets-ii.py
+
+.. __: https://oj.leetcode.com/problems/unique-binary-search-trees/
+.. __: code/96-unique-binary-search-trees.py
 
 
 
@@ -341,6 +545,8 @@ Dynamic Programming
 === ====================== ======
  53 `Maximum Subarray`__   DONE__
  64 `Minimum Path Sum`__   DONE__
+ 70 `Climbing Stairs`__    DONE__
+ 91 `Decode Ways`__        DONE__
 === ====================== ======
 
 .. __: https://oj.leetcode.com/problems/maximum-subarray/
@@ -348,6 +554,13 @@ Dynamic Programming
 
 .. __: https://oj.leetcode.com/problems/minimum-path-sum/
 .. __: code/64-minimum-path-sum.py
+
+.. __: https://oj.leetcode.com/problems/climbing-stairs/
+.. __: code/70-climbing-stairs.py
+
+.. __: https://oj.leetcode.com/problems/decode-ways/
+.. __: code/91-decode-ways.py
+
 
 
 Linked List
@@ -408,6 +621,7 @@ Stack
 === ============================== ======
  20 `Valid Parentheses`__          WIP__
  32 `Longest Valid Parentheses`__  WIP__
+ 71 `Simplify Path`__              TODO__
 === ============================== ======
 
 .. __: https://oj.leetcode.com/problems/valid-parentheses/
@@ -415,6 +629,9 @@ Stack
 
 .. __: https://oj.leetcode.com/problems/longest-valid-parentheses/
 .. __: code/32-longest-valid-parentheses.py
+
+.. __: https://oj.leetcode.com/problems/simplify-path/
+.. __: code/71-simplify-path.py
 
 
 
@@ -457,6 +674,7 @@ Uncategorized
  56 `Merge Intervals`__                                 DONE__
  57 `Insert Interval`__                                 DONE__
  59 `Spiral Matrix II`__                                DONE__
+ 75 `Sort Colors`__                                     DONE__
 === =================================================== ======
 
 .. __: https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/
@@ -491,3 +709,6 @@ Uncategorized
 
 .. __: https://oj.leetcode.com/problems/spiral-matrix-ii/
 .. __: code/59-spiral-matrix-ii.py
+
+.. __: https://oj.leetcode.com/problems/sort-colors/
+.. __: code/75-sort-colors.py

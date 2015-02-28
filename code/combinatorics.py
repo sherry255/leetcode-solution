@@ -57,6 +57,9 @@ def comb(l, n):
         yield ()
     else:
         for i in xrange(len(l)):
+            if i > 0 and l[i] == l[i-1]:
+                continue
+
             for r in comb(l[i+1:], n-1):
                 yield (l[i],) + r
 
