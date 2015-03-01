@@ -77,7 +77,7 @@ Solution List
  68 Text Justification
  69 Sqrt(x)
  70 `Climbing Stairs`__
- 71 Simplify Path
+ 71 `Simplify Path`__
  72 Edit Distance
  73 Set Matrix Zeroes
  74 Search a 2D Matrix
@@ -120,18 +120,18 @@ Solution List
 111 `Minimum Depth of Binary Tree`__
 112 `Path Sum`__
 113 `Path Sum II`__
-114 Flatten Binary Tree to Linked List
+114 `Flatten Binary Tree to Linked List`__
 115 Distinct Subsequences
 116 `Populating Next Right Pointers in Each Node`__
 117 `Populating Next Right Pointers in Each Node II`__
 118 Pascal's Triangle
 119 Pascal's Triangle II
 120 Triangle
-121 Best Time to Buy and Sell Stock
-122 Best Time to Buy and Sell Stock II
+121 `Best Time to Buy and Sell Stock`__
+122 `Best Time to Buy and Sell Stock II`__
 123 Best Time to Buy and Sell Stock III
 124 Binary Tree Maximum Path Sum
-125 Valid Palindrome
+125 `Valid Palindrome`__
 126 Word Ladder II
 127 Word Ladder
 128 Longest Consecutive Sequence
@@ -142,7 +142,7 @@ Solution List
 133 Clone Graph
 134 Gas Station
 135 Candy
-136 Single Number
+136 `Single Number`__
 137 Single Number II
 138 Copy List with Random Pointer
 139 Word Break
@@ -156,7 +156,7 @@ Solution List
 147 Insertion Sort List
 148 Sort List
 149 Max Points on a Line
-150 Evaluate Reverse Polish Notation
+150 `Evaluate Reverse Polish Notation`__
 151 Reverse Words in a String
 152 Maximum Product Subarray
 153 `Find Minimum in Rotated Sorted Array`__
@@ -215,6 +215,7 @@ Solution List
 .. __: code/66-plus-one.py
 .. __: code/67-add-binary.py
 .. __: code/70-climbing-stairs.py
+.. __: code/71-simplify-path.py
 .. __: code/75-sort-colors.py
 .. __: code/77-combinations.py
 .. __: code/78-subsets.py
@@ -236,11 +237,17 @@ Solution List
 .. __: code/111-minimum-depth-of-binary-tree.py
 .. __: code/112-path-sum.py
 .. __: code/113-path-sum-ii.py
+.. __: code/114-flatten-binary-tree-to-linked-list.py
 .. __: code/116-populating-next-right-pointers-in-each-node.py
 .. __: code/117-populating-next-right-pointers-in-each-node-ii.py
+.. __: code/121-best-time-to-buy-and-sell-stock.py
+.. __: code/122-best-time-to-buy-and-sell-stock-ii.py
+.. __: code/125-valid-palindrome.py
 .. __: code/129-sum-root-to-leaf-numbers.py
+.. __: code/136-single-number.py
 .. __: code/144-binary-tree-preorder-traversal.py
 .. __: code/145-binary-tree-postorder-traversal.py
+.. __: code/150-evaluate-reverse-polish-notation.py
 .. __: code/153-find-minimum-in-rotated-sorted-array.py
 .. __: code/154-find-minimum-in-rotated-sorted-array-ii.py
 
@@ -351,6 +358,7 @@ Binary Tree
 111 `Minimum Depth of Binary Tree`__                     DONE__
 112 `Path Sum`__                                         DONE__
 113 `Path Sum II`__                                      DONE__
+114 `Flatten Binary Tree to Linked List`__               TODO__
 116 `Populating Next Right Pointers in Each Node`__      DONE__
 117 `Populating Next Right Pointers in Each Node II`__   NIP__
 129 `Sum Root to Leaf Numbers`__                         DONE__
@@ -394,6 +402,9 @@ Binary Tree
 .. __: https://oj.leetcode.com/problems/path-sum-ii/
 .. __: code/113-path-sum-ii.py
 
+.. __: https://oj.leetcode.com/problems/flatten-binary-tree-to-linked-list/
+.. __: code/114-flatten-binary-tree-to-linked-list.py
+
 .. __: https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/
 .. __: code/116-populating-next-right-pointers-in-each-node.py
 
@@ -416,10 +427,14 @@ Bit
 
 === =============================== ======
  29 `Divide Two Integers`__         DONE__
+136 `Single Number`__               DONE__
 === =============================== ======
 
 .. __: https://oj.leetcode.com/problems/divide-two-integers/
 .. __: code/29-divide-two-integers.py
+
+.. __: https://oj.leetcode.com/problems/single-number/
+.. __: code/136-single-number.py
 
 
 
@@ -542,12 +557,14 @@ Digit
 Dynamic Programming
 ===================
 
-=== ====================== ======
- 53 `Maximum Subarray`__   DONE__
- 64 `Minimum Path Sum`__   DONE__
- 70 `Climbing Stairs`__    DONE__
- 91 `Decode Ways`__        DONE__
-=== ====================== ======
+=== ======================================== ======
+ 53 `Maximum Subarray`__                     DONE__
+ 64 `Minimum Path Sum`__                     DONE__
+ 70 `Climbing Stairs`__                      DONE__
+ 91 `Decode Ways`__                          DONE__
+121 `Best Time to Buy and Sell Stock`__      DONE__
+122 `Best Time to Buy and Sell Stock II`__   DONE__
+=== ======================================== ======
 
 .. __: https://oj.leetcode.com/problems/maximum-subarray/
 .. __: code/53-maximum-subarray.py
@@ -560,6 +577,12 @@ Dynamic Programming
 
 .. __: https://oj.leetcode.com/problems/decode-ways/
 .. __: code/91-decode-ways.py
+
+.. __: https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock/
+.. __: code/121-best-time-to-buy-and-sell-stock.py
+
+.. __: https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+.. __: code/122-best-time-to-buy-and-sell-stock-ii.py
 
 
 
@@ -618,11 +641,12 @@ Matching
 Stack
 =====
 
-=== ============================== ======
- 20 `Valid Parentheses`__          WIP__
- 32 `Longest Valid Parentheses`__  WIP__
- 71 `Simplify Path`__              TODO__
-=== ============================== ======
+=== ====================================== ======
+ 20 `Valid Parentheses`__                  DONE__
+ 32 `Longest Valid Parentheses`__          DONE__
+ 71 `Simplify Path`__                      DONE__
+150 `Evaluate Reverse Polish Notation`__   DONE__
+=== ====================================== ======
 
 .. __: https://oj.leetcode.com/problems/valid-parentheses/
 .. __: code/20-valid-parentheses.py
@@ -632,6 +656,9 @@ Stack
 
 .. __: https://oj.leetcode.com/problems/simplify-path/
 .. __: code/71-simplify-path.py
+
+.. __: https://oj.leetcode.com/problems/evaluate-reverse-polish-notation/
+.. __: code/150-evaluate-reverse-polish-notation.py
 
 
 
@@ -675,6 +702,7 @@ Uncategorized
  57 `Insert Interval`__                                 DONE__
  59 `Spiral Matrix II`__                                DONE__
  75 `Sort Colors`__                                     DONE__
+125 `Valid Palindrome`__                                TODO__
 === =================================================== ======
 
 .. __: https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/
@@ -712,3 +740,6 @@ Uncategorized
 
 .. __: https://oj.leetcode.com/problems/sort-colors/
 .. __: code/75-sort-colors.py
+
+.. __: https://oj.leetcode.com/problems/valid-palindrome/
+.. __: code/125-valid-palindrome.py

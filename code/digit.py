@@ -3,16 +3,16 @@ def int2digits(x, base=10):
         yield x%base
         x //= base
 
-def digits2int_b(it):
+def digits2int_b(it, base=10):
     i = 0
     for d in it:
-        i = i * 10 + d
+        i = i * base + d
     return i
 
-def digits2int_l(it):
+def digits2int_l(it, base=10):
     r = 0
     for i, d in enumerate(it):
-        r += d * (10 ** i)
+        r += d * (base ** i)
     return r
 
 def add_by_digit(it, base=10):
