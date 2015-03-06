@@ -78,11 +78,11 @@ Solution List
  69 Sqrt(x)
  70 `Climbing Stairs`__
  71 `Simplify Path`__
- 72 Edit Distance
+ 72 `Edit Distance`__
  73 Set Matrix Zeroes
  74 Search a 2D Matrix
  75 `Sort Colors`__
- 76 Minimum Window Substring
+ 76 `Minimum Window Substring`__
  77 `Combinations`__
  78 `Subsets`__
  79 Word Search
@@ -90,8 +90,8 @@ Solution List
  81 `Search in Rotated Sorted Array II`__
  82 Remove Duplicates from Sorted List II
  83 Remove Duplicates from Sorted List
- 84 Largest Rectangle in Histogram
- 85 Maximal Rectangle
+ 84 `Largest Rectangle in Histogram`__
+ 85 `Maximal Rectangle`__
  86 Partition List
  87 Scramble String
  88 Merge Sorted Array
@@ -132,8 +132,8 @@ Solution List
 123 Best Time to Buy and Sell Stock III
 124 Binary Tree Maximum Path Sum
 125 `Valid Palindrome`__
-126 Word Ladder II
-127 Word Ladder
+126 `Word Ladder II`__
+127 `Word Ladder`__
 128 Longest Consecutive Sequence
 129 `Sum Root to Leaf Numbers`__
 130 Surrounded Regions
@@ -216,11 +216,15 @@ Solution List
 .. __: code/67-add-binary.py
 .. __: code/70-climbing-stairs.py
 .. __: code/71-simplify-path.py
+.. __: code/72-edit-distance.py
 .. __: code/75-sort-colors.py
+.. __: code/76-minimum-window-substring.py
 .. __: code/77-combinations.py
 .. __: code/78-subsets.py
 .. __: code/80-remove-duplicates-from-sorted-array-ii.py
 .. __: code/81-search-in-rotated-sorted-array-ii.py
+.. __: code/84-largest-rectangle-in-histogram.py
+.. __: code/85-maximal-rectangle.py
 .. __: code/89-gray-code.py
 .. __: code/90-subsets-ii.py
 .. __: code/91-decode-ways.py
@@ -243,6 +247,8 @@ Solution List
 .. __: code/121-best-time-to-buy-and-sell-stock.py
 .. __: code/122-best-time-to-buy-and-sell-stock-ii.py
 .. __: code/125-valid-palindrome.py
+.. __: code/126-word-ladder-ii.py
+.. __: code/127-word-ladder.py
 .. __: code/129-sum-root-to-leaf-numbers.py
 .. __: code/136-single-number.py
 .. __: code/144-binary-tree-preorder-traversal.py
@@ -358,7 +364,7 @@ Binary Tree
 111 `Minimum Depth of Binary Tree`__                     DONE__
 112 `Path Sum`__                                         DONE__
 113 `Path Sum II`__                                      DONE__
-114 `Flatten Binary Tree to Linked List`__               TODO__
+114 `Flatten Binary Tree to Linked List`__               DONE__
 116 `Populating Next Right Pointers in Each Node`__      DONE__
 117 `Populating Next Right Pointers in Each Node II`__   NIP__
 129 `Sum Root to Leaf Numbers`__                         DONE__
@@ -561,6 +567,8 @@ Dynamic Programming
  53 `Maximum Subarray`__                     DONE__
  64 `Minimum Path Sum`__                     DONE__
  70 `Climbing Stairs`__                      DONE__
+ 72 `Edit Distance`__                        DONE__
+ 85 `Maximal Rectangle`__                    DONE__
  91 `Decode Ways`__                          DONE__
 121 `Best Time to Buy and Sell Stock`__      DONE__
 122 `Best Time to Buy and Sell Stock II`__   DONE__
@@ -574,6 +582,12 @@ Dynamic Programming
 
 .. __: https://oj.leetcode.com/problems/climbing-stairs/
 .. __: code/70-climbing-stairs.py
+
+.. __: https://oj.leetcode.com/problems/edit-distance/
+.. __: code/72-edit-distance.py
+
+.. __: https://oj.leetcode.com/problems/maximal-rectangle/
+.. __: code/85-maximal-rectangle.py
 
 .. __: https://oj.leetcode.com/problems/decode-ways/
 .. __: code/91-decode-ways.py
@@ -645,6 +659,7 @@ Stack
  20 `Valid Parentheses`__                  DONE__
  32 `Longest Valid Parentheses`__          DONE__
  71 `Simplify Path`__                      DONE__
+ 84 `Largest Rectangle in Histogram`__     TODO__
 150 `Evaluate Reverse Polish Notation`__   DONE__
 === ====================================== ======
 
@@ -656,6 +671,9 @@ Stack
 
 .. __: https://oj.leetcode.com/problems/simplify-path/
 .. __: code/71-simplify-path.py
+
+.. __: https://oj.leetcode.com/problems/largest-rectangle-in-histogram/
+.. __: code/84-largest-rectangle-in-histogram.py
 
 .. __: https://oj.leetcode.com/problems/evaluate-reverse-polish-notation/
 .. __: code/150-evaluate-reverse-polish-notation.py
@@ -702,7 +720,10 @@ Uncategorized
  57 `Insert Interval`__                                 DONE__
  59 `Spiral Matrix II`__                                DONE__
  75 `Sort Colors`__                                     DONE__
-125 `Valid Palindrome`__                                TODO__
+ 76 `Minimum Window Substring`__                        DONE__
+125 `Valid Palindrome`__                                DONE__
+126 `Word Ladder II`__                                  DONE__
+127 `Word Ladder`__                                     DONE__
 === =================================================== ======
 
 .. __: https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/
@@ -741,5 +762,14 @@ Uncategorized
 .. __: https://oj.leetcode.com/problems/sort-colors/
 .. __: code/75-sort-colors.py
 
+.. __: https://oj.leetcode.com/problems/minimum-window-substring/
+.. __: code/76-minimum-window-substring.py
+
 .. __: https://oj.leetcode.com/problems/valid-palindrome/
 .. __: code/125-valid-palindrome.py
+
+.. __: https://oj.leetcode.com/problems/word-ladder-ii/
+.. __: code/126-word-ladder-ii.py
+
+.. __: https://oj.leetcode.com/problems/word-ladder/
+.. __: code/127-word-ladder.py
