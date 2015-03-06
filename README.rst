@@ -124,21 +124,21 @@ Solution List
 115 Distinct Subsequences
 116 `Populating Next Right Pointers in Each Node`__
 117 `Populating Next Right Pointers in Each Node II`__
-118 Pascal's Triangle
-119 Pascal's Triangle II
-120 Triangle
+118 `Pascal's Triangle`__
+119 `Pascal's Triangle II`__
+120 `Triangle`__
 121 `Best Time to Buy and Sell Stock`__
 122 `Best Time to Buy and Sell Stock II`__
 123 Best Time to Buy and Sell Stock III
-124 Binary Tree Maximum Path Sum
+124 `Binary Tree Maximum Path Sum`__
 125 `Valid Palindrome`__
 126 `Word Ladder II`__
 127 `Word Ladder`__
 128 Longest Consecutive Sequence
 129 `Sum Root to Leaf Numbers`__
 130 Surrounded Regions
-131 Palindrome Partitioning
-132 Palindrome Partitioning II
+131 `Palindrome Partitioning`__
+132 `Palindrome Partitioning II`__
 133 Clone Graph
 134 Gas Station
 135 Candy
@@ -244,12 +244,18 @@ Solution List
 .. __: code/114-flatten-binary-tree-to-linked-list.py
 .. __: code/116-populating-next-right-pointers-in-each-node.py
 .. __: code/117-populating-next-right-pointers-in-each-node-ii.py
+.. __: code/118-pascals-triangle.py
+.. __: code/119-pascals-triangle-ii.py
+.. __: code/120-triangle.py
 .. __: code/121-best-time-to-buy-and-sell-stock.py
 .. __: code/122-best-time-to-buy-and-sell-stock-ii.py
+.. __: code/124-binary-tree-maximum-path-sum.py
 .. __: code/125-valid-palindrome.py
 .. __: code/126-word-ladder-ii.py
 .. __: code/127-word-ladder.py
 .. __: code/129-sum-root-to-leaf-numbers.py
+.. __: code/131-palindrome-partitioning.py
+.. __: code/132-palindrome-partitioning-ii.py
 .. __: code/136-single-number.py
 .. __: code/139-word-break.py
 .. __: code/140-word-break-ii.py
@@ -371,6 +377,7 @@ Binary Tree
 114 `Flatten Binary Tree to Linked List`__               DONE__
 116 `Populating Next Right Pointers in Each Node`__      DONE__
 117 `Populating Next Right Pointers in Each Node II`__   NIP__
+124 `Binary Tree Maximum Path Sum`__                     DONE__
 129 `Sum Root to Leaf Numbers`__                         DONE__
 144 `Binary Tree Preorder Traversal`__                   DONE__
 145 `Binary Tree Postorder Traversal`__                  DONE__
@@ -420,6 +427,9 @@ Binary Tree
 
 .. __: https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
 .. __: code/117-populating-next-right-pointers-in-each-node-ii.py
+
+.. __: https://oj.leetcode.com/problems/binary-tree-maximum-path-sum/
+.. __: code/124-binary-tree-maximum-path-sum.py
 
 .. __: https://oj.leetcode.com/problems/sum-root-to-leaf-numbers/
 .. __: code/129-sum-root-to-leaf-numbers.py
@@ -578,6 +588,8 @@ Dynamic Programming
  91 `Decode Ways`__                          DONE__
 121 `Best Time to Buy and Sell Stock`__      DONE__
 122 `Best Time to Buy and Sell Stock II`__   DONE__
+131 `Palindrome Partitioning`__              DONE__
+132 `Palindrome Partitioning II`__           DONE__
 139 `Word Break`__                           DONE__
 140 `Word Break II`__                        DONE__
 === ======================================== ======
@@ -611,6 +623,12 @@ Dynamic Programming
 
 .. __: https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 .. __: code/122-best-time-to-buy-and-sell-stock-ii.py
+
+.. __: https://oj.leetcode.com/problems/palindrome-partitioning/
+.. __: code/131-palindrome-partitioning.py
+
+.. __: https://oj.leetcode.com/problems/palindrome-partitioning-ii/
+.. __: code/132-palindrome-partitioning-ii.py
 
 .. __: https://oj.leetcode.com/problems/word-break/
 .. __: code/139-word-break.py
@@ -739,6 +757,9 @@ Uncategorized
  59 `Spiral Matrix II`__                                DONE__
  75 `Sort Colors`__                                     DONE__
  76 `Minimum Window Substring`__                        DONE__
+118 `Pascal's Triangle`__                               DONE__
+119 `Pascal's Triangle II`__                            DONE__
+120 `Triangle`__                                        DONE__
 125 `Valid Palindrome`__                                DONE__
 126 `Word Ladder II`__                                  DONE__
 127 `Word Ladder`__                                     DONE__
@@ -778,6 +799,15 @@ Uncategorized
 
 .. __: https://oj.leetcode.com/problems/minimum-window-substring/
 .. __: code/76-minimum-window-substring.py
+
+.. __: https://oj.leetcode.com/problems/pascals-triangle/
+.. __: code/118-pascals-triangle.py
+
+.. __: https://oj.leetcode.com/problems/pascals-triangle-ii/
+.. __: code/119-pascals-triangle-ii.py
+
+.. __: https://oj.leetcode.com/problems/triangle/
+.. __: code/120-triangle.py
 
 .. __: https://oj.leetcode.com/problems/valid-palindrome/
 .. __: code/125-valid-palindrome.py

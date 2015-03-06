@@ -47,3 +47,13 @@ def find_word_ranges(word, s):
 
         yield (index, index+l)
         start = index + 1
+
+
+def iter_palindrome(s):
+    l = len(s)
+
+    for i in xrange(l):
+        for j in xrange(i+1, l+1):
+            w = s[i:j]
+            if w == w[::-1]:
+                yield i, j
