@@ -33,3 +33,17 @@ def merge_intervals(intervals):
             last = c
 
     yield last
+
+
+def find_word_ranges(word, s):
+    start = 0
+    l = len(word)
+
+    while True:
+        try:
+            index = s.index(word, start)
+        except ValueError:
+            break
+
+        yield (index, index+l)
+        start = index + 1

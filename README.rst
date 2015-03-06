@@ -145,10 +145,10 @@ Solution List
 136 `Single Number`__
 137 Single Number II
 138 Copy List with Random Pointer
-139 Word Break
-140 Word Break II
-141 Linked List Cycle
-142 Linked List Cycle II
+139 `Word Break`__
+140 `Word Break II`__
+141 `Linked List Cycle`__
+142 `Linked List Cycle II`__
 143 Reorder List
 144 `Binary Tree Preorder Traversal`__
 145 `Binary Tree Postorder Traversal`__
@@ -251,6 +251,10 @@ Solution List
 .. __: code/127-word-ladder.py
 .. __: code/129-sum-root-to-leaf-numbers.py
 .. __: code/136-single-number.py
+.. __: code/139-word-break.py
+.. __: code/140-word-break-ii.py
+.. __: code/141-linked-list-cycle.py
+.. __: code/142-linked-list-cycle-ii.py
 .. __: code/144-binary-tree-preorder-traversal.py
 .. __: code/145-binary-tree-postorder-traversal.py
 .. __: code/150-evaluate-reverse-polish-notation.py
@@ -564,7 +568,9 @@ Dynamic Programming
 ===================
 
 === ======================================== ======
+ 45 `Jump Game II`__                         DONE__
  53 `Maximum Subarray`__                     DONE__
+ 55 `Jump Game`__                            DONE__
  64 `Minimum Path Sum`__                     DONE__
  70 `Climbing Stairs`__                      DONE__
  72 `Edit Distance`__                        DONE__
@@ -572,10 +578,18 @@ Dynamic Programming
  91 `Decode Ways`__                          DONE__
 121 `Best Time to Buy and Sell Stock`__      DONE__
 122 `Best Time to Buy and Sell Stock II`__   DONE__
+139 `Word Break`__                           DONE__
+140 `Word Break II`__                        DONE__
 === ======================================== ======
+
+.. __: https://oj.leetcode.com/problems/jump-game-ii/
+.. __: code/45-jump-game-ii.py
 
 .. __: https://oj.leetcode.com/problems/maximum-subarray/
 .. __: code/53-maximum-subarray.py
+
+.. __: https://oj.leetcode.com/problems/jump-game/
+.. __: code/55-jump-game.py
 
 .. __: https://oj.leetcode.com/problems/minimum-path-sum/
 .. __: code/64-minimum-path-sum.py
@@ -597,6 +611,12 @@ Dynamic Programming
 
 .. __: https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 .. __: code/122-best-time-to-buy-and-sell-stock-ii.py
+
+.. __: https://oj.leetcode.com/problems/word-break/
+.. __: code/139-word-break.py
+
+.. __: https://oj.leetcode.com/problems/word-break-ii/
+.. __: code/140-word-break-ii.py
 
 
 
@@ -712,10 +732,8 @@ Uncategorized
   6 `ZigZag Conversion`__                               DONE__
  14 `Longest Common Prefix`__                           DONE__
  36 `Valid Sudoku`__                                    DONE__
- 45 `Jump Game II`__                                    DONE__
  49 `Anagrams`__                                        DONE__
  54 `Spiral Matrix`__                                   DONE__
- 55 `Jump Game`__                                       DONE__
  56 `Merge Intervals`__                                 DONE__
  57 `Insert Interval`__                                 DONE__
  59 `Spiral Matrix II`__                                DONE__
@@ -724,6 +742,8 @@ Uncategorized
 125 `Valid Palindrome`__                                DONE__
 126 `Word Ladder II`__                                  DONE__
 127 `Word Ladder`__                                     DONE__
+141 `Linked List Cycle`__                               DONE__
+142 `Linked List Cycle II`__                            DONE__
 === =================================================== ======
 
 .. __: https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/
@@ -738,17 +758,11 @@ Uncategorized
 .. __: https://oj.leetcode.com/problems/valid-sudoku/
 .. __: code/36-valid-sudoku.py
 
-.. __: https://oj.leetcode.com/problems/jump-game-ii/
-.. __: code/45-jump-game-ii.py
-
 .. __: https://oj.leetcode.com/problems/anagrams/
 .. __: code/49-anagrams.py
 
 .. __: https://oj.leetcode.com/problems/spiral-matrix/
 .. __: code/54-spiral-matrix.py
-
-.. __: https://oj.leetcode.com/problems/jump-game/
-.. __: code/55-jump-game.py
 
 .. __: https://oj.leetcode.com/problems/merge-intervals/
 .. __: code/56-merge-intervals.py
@@ -773,3 +787,9 @@ Uncategorized
 
 .. __: https://oj.leetcode.com/problems/word-ladder/
 .. __: code/127-word-ladder.py
+
+.. __: https://oj.leetcode.com/problems/linked-list-cycle/
+.. __: code/141-linked-list-cycle.py
+
+.. __: https://oj.leetcode.com/problems/linked-list-cycle-ii/
+.. __: code/142-linked-list-cycle-ii.py
