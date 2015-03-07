@@ -39,3 +39,10 @@ class TreeNode:
         self.val = x
         self.left = None
         self.right = None
+
+
+class RandomListNode:
+    def __init__(self, x):
+        self.label = x
+        self.next = None
+        self.random = None

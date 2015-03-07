@@ -99,7 +99,7 @@ Solution List
  90 `Subsets II`__
  91 `Decode Ways`__
  92 Reverse Linked List II
- 93 Restore IP Addresses
+ 93 `Restore IP Addresses`__
  94 `Binary Tree Inorder Traversal`__
  95 Unique Binary Search Trees II
  96 `Unique Binary Search Trees`__
@@ -136,15 +136,15 @@ Solution List
 127 `Word Ladder`__
 128 Longest Consecutive Sequence
 129 `Sum Root to Leaf Numbers`__
-130 Surrounded Regions
+130 `Surrounded Regions`__
 131 `Palindrome Partitioning`__
 132 `Palindrome Partitioning II`__
 133 Clone Graph
-134 Gas Station
-135 Candy
+134 `Gas Station`__
+135 `Candy`__
 136 `Single Number`__
 137 Single Number II
-138 Copy List with Random Pointer
+138 `Copy List with Random Pointer`__
 139 `Word Break`__
 140 `Word Break II`__
 141 `Linked List Cycle`__
@@ -228,6 +228,7 @@ Solution List
 .. __: code/89-gray-code.py
 .. __: code/90-subsets-ii.py
 .. __: code/91-decode-ways.py
+.. __: code/93-restore-ip-addresses.py
 .. __: code/94-binary-tree-inorder-traversal.py
 .. __: code/96-unique-binary-search-trees.py
 .. __: code/98-validate-binary-search-tree.py
@@ -256,7 +257,11 @@ Solution List
 .. __: code/129-sum-root-to-leaf-numbers.py
 .. __: code/131-palindrome-partitioning.py
 .. __: code/132-palindrome-partitioning-ii.py
+.. __: code/130-surrounded-regions.py
+.. __: code/134-gas-station.py
+.. __: code/135-candy.py
 .. __: code/136-single-number.py
+.. __: code/138-copy-list-with-random-pointer.py
 .. __: code/139-word-break.py
 .. __: code/140-word-break-ii.py
 .. __: code/141-linked-list-cycle.py
@@ -757,12 +762,17 @@ Uncategorized
  59 `Spiral Matrix II`__                                DONE__
  75 `Sort Colors`__                                     DONE__
  76 `Minimum Window Substring`__                        DONE__
+ 93 `Restore IP Addresses`__                            DONE__
 118 `Pascal's Triangle`__                               DONE__
 119 `Pascal's Triangle II`__                            DONE__
 120 `Triangle`__                                        DONE__
 125 `Valid Palindrome`__                                DONE__
 126 `Word Ladder II`__                                  DONE__
 127 `Word Ladder`__                                     DONE__
+130 `Surrounded Regions`__                              DONE__
+134 `Gas Station`__                                     DONE__
+135 `Candy`__                                           DONE__
+138 `Copy List with Random Pointer`__                   DONE__
 141 `Linked List Cycle`__                               DONE__
 142 `Linked List Cycle II`__                            DONE__
 === =================================================== ======
@@ -800,6 +810,9 @@ Uncategorized
 .. __: https://oj.leetcode.com/problems/minimum-window-substring/
 .. __: code/76-minimum-window-substring.py
 
+.. __: https://oj.leetcode.com/problems/restore-ip-addresses/
+.. __: code/93-restore-ip-addresses.py
+
 .. __: https://oj.leetcode.com/problems/pascals-triangle/
 .. __: code/118-pascals-triangle.py
 
@@ -817,6 +830,18 @@ Uncategorized
 
 .. __: https://oj.leetcode.com/problems/word-ladder/
 .. __: code/127-word-ladder.py
+
+.. __: https://oj.leetcode.com/problems/surrounded-regions/
+.. __: code/130-surrounded-regions.py
+
+.. __: https://oj.leetcode.com/problems/gas-station/
+.. __: code/134-gas-station.py
+
+.. __: https://oj.leetcode.com/problems/candy/
+.. __: code/135-candy.py
+
+.. __: https://oj.leetcode.com/problems/copy-list-with-random-pointer/
+.. __: code/138-copy-list-with-random-pointer.py
 
 .. __: https://oj.leetcode.com/problems/linked-list-cycle/
 .. __: code/141-linked-list-cycle.py
