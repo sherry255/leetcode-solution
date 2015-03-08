@@ -47,7 +47,7 @@ Solution List
  38 `Count and Say`__
  39 `Combination Sum`__
  40 `Combination Sum II`__
- 41 First Missing Positive
+ 41 `First Missing Positive`__
  42 Trapping Rain Water
  43 `Multiply Strings`__
  44 Wildcard Matching
@@ -121,7 +121,7 @@ Solution List
 112 `Path Sum`__
 113 `Path Sum II`__
 114 `Flatten Binary Tree to Linked List`__
-115 Distinct Subsequences
+115 `Distinct Subsequences`__
 116 `Populating Next Right Pointers in Each Node`__
 117 `Populating Next Right Pointers in Each Node II`__
 118 `Pascal's Triangle`__
@@ -129,7 +129,7 @@ Solution List
 120 `Triangle`__
 121 `Best Time to Buy and Sell Stock`__
 122 `Best Time to Buy and Sell Stock II`__
-123 Best Time to Buy and Sell Stock III
+123 `Best Time to Buy and Sell Stock III`__
 124 `Binary Tree Maximum Path Sum`__
 125 `Valid Palindrome`__
 126 `Word Ladder II`__
@@ -194,6 +194,7 @@ Solution List
 .. __: code/38-count-and-say.py
 .. __: code/39-combination-sum.py
 .. __: code/40-combination-sum-ii.py
+.. __: code/41-first-missing-positive.py
 .. __: code/43-multiply-strings.py
 .. __: code/45-jump-game-ii.py
 .. __: code/46-permutations.py
@@ -243,6 +244,7 @@ Solution List
 .. __: code/112-path-sum.py
 .. __: code/113-path-sum-ii.py
 .. __: code/114-flatten-binary-tree-to-linked-list.py
+.. __: code/115-distinct-subsequences.py
 .. __: code/116-populating-next-right-pointers-in-each-node.py
 .. __: code/117-populating-next-right-pointers-in-each-node-ii.py
 .. __: code/118-pascals-triangle.py
@@ -250,6 +252,7 @@ Solution List
 .. __: code/120-triangle.py
 .. __: code/121-best-time-to-buy-and-sell-stock.py
 .. __: code/122-best-time-to-buy-and-sell-stock-ii.py
+.. __: code/123-best-time-to-buy-and-sell-stock-iii.py
 .. __: code/124-binary-tree-maximum-path-sum.py
 .. __: code/125-valid-palindrome.py
 .. __: code/126-word-ladder-ii.py
@@ -582,22 +585,23 @@ Digit
 Dynamic Programming
 ===================
 
-=== ======================================== ======
- 45 `Jump Game II`__                         DONE__
- 53 `Maximum Subarray`__                     DONE__
- 55 `Jump Game`__                            DONE__
- 64 `Minimum Path Sum`__                     DONE__
- 70 `Climbing Stairs`__                      DONE__
- 72 `Edit Distance`__                        DONE__
- 85 `Maximal Rectangle`__                    DONE__
- 91 `Decode Ways`__                          DONE__
-121 `Best Time to Buy and Sell Stock`__      DONE__
-122 `Best Time to Buy and Sell Stock II`__   DONE__
-131 `Palindrome Partitioning`__              DONE__
-132 `Palindrome Partitioning II`__           DONE__
-139 `Word Break`__                           DONE__
-140 `Word Break II`__                        DONE__
-=== ======================================== ======
+=== ========================================= ======
+ 45 `Jump Game II`__                          DONE__
+ 53 `Maximum Subarray`__                      DONE__
+ 55 `Jump Game`__                             DONE__
+ 64 `Minimum Path Sum`__                      DONE__
+ 70 `Climbing Stairs`__                       DONE__
+ 72 `Edit Distance`__                         DONE__
+ 85 `Maximal Rectangle`__                     DONE__
+ 91 `Decode Ways`__                           DONE__
+121 `Best Time to Buy and Sell Stock`__       DONE__
+122 `Best Time to Buy and Sell Stock II`__    DONE__
+123 `Best Time to Buy and Sell Stock III`__   DONE__
+131 `Palindrome Partitioning`__               DONE__
+132 `Palindrome Partitioning II`__            DONE__
+139 `Word Break`__                            DONE__
+140 `Word Break II`__                         DONE__
+=== ========================================= ======
 
 .. __: https://oj.leetcode.com/problems/jump-game-ii/
 .. __: code/45-jump-game-ii.py
@@ -628,6 +632,9 @@ Dynamic Programming
 
 .. __: https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 .. __: code/122-best-time-to-buy-and-sell-stock-ii.py
+
+.. __: https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
+.. __: code/123-best-time-to-buy-and-sell-stock-iii.py
 
 .. __: https://oj.leetcode.com/problems/palindrome-partitioning/
 .. __: code/131-palindrome-partitioning.py
@@ -702,7 +709,7 @@ Stack
  20 `Valid Parentheses`__                  DONE__
  32 `Longest Valid Parentheses`__          DONE__
  71 `Simplify Path`__                      DONE__
- 84 `Largest Rectangle in Histogram`__     TODO__
+ 84 `Largest Rectangle in Histogram`__     DONE__
 150 `Evaluate Reverse Polish Notation`__   DONE__
 === ====================================== ======
 
@@ -755,6 +762,7 @@ Uncategorized
   6 `ZigZag Conversion`__                               DONE__
  14 `Longest Common Prefix`__                           DONE__
  36 `Valid Sudoku`__                                    DONE__
+ 41 `First Missing Positive`__                          DONE__
  49 `Anagrams`__                                        DONE__
  54 `Spiral Matrix`__                                   DONE__
  56 `Merge Intervals`__                                 DONE__
@@ -763,6 +771,7 @@ Uncategorized
  75 `Sort Colors`__                                     DONE__
  76 `Minimum Window Substring`__                        DONE__
  93 `Restore IP Addresses`__                            DONE__
+115 `Distinct Subsequences`__                           DONE__
 118 `Pascal's Triangle`__                               DONE__
 119 `Pascal's Triangle II`__                            DONE__
 120 `Triangle`__                                        DONE__
@@ -789,6 +798,9 @@ Uncategorized
 .. __: https://oj.leetcode.com/problems/valid-sudoku/
 .. __: code/36-valid-sudoku.py
 
+.. __: https://oj.leetcode.com/problems/first-missing-positive/
+.. __: code/41-first-missing-positive.py
+
 .. __: https://oj.leetcode.com/problems/anagrams/
 .. __: code/49-anagrams.py
 
@@ -812,6 +824,9 @@ Uncategorized
 
 .. __: https://oj.leetcode.com/problems/restore-ip-addresses/
 .. __: code/93-restore-ip-addresses.py
+
+.. __: https://oj.leetcode.com/problems/distinct-subsequences/
+.. __: code/115-distinct-subsequences.py
 
 .. __: https://oj.leetcode.com/problems/pascals-triangle/
 .. __: code/118-pascals-triangle.py
