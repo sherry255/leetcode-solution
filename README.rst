@@ -218,6 +218,7 @@ Solution List
 .. __: code/70-climbing-stairs.py
 .. __: code/71-simplify-path.py
 .. __: code/72-edit-distance.py
+.. __: code/74-Search-a-2D-Matrix.py
 .. __: code/75-sort-colors.py
 .. __: code/76-minimum-window-substring.py
 .. __: code/77-combinations.py
