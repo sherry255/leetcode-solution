@@ -80,7 +80,7 @@ Solution List
  71 `Simplify Path`__
  72 `Edit Distance`__
  73 Set Matrix Zeroes
- 74 Search a 2D Matrix
+ 74 `Search a 2D Matrix`__
  75 `Sort Colors`__
  76 `Minimum Window Substring`__
  77 `Combinations`__
